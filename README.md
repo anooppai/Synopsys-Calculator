@@ -4,19 +4,19 @@ A Calculator developed as a part of the coding assessment at Synopsys
 Functional Requirements:<br />
 A calculator program in Java that evaluates expressions in a very simple integer expression language. The program takes an input on the command line, computes the result, and prints it to the console. For example:
 
-Input							Output
+Input				-			Output
 
-add(1, 2)						3
+add(1, 2)			-			3
 
-add(1, mult(2, 3))					7
+add(1, mult(2, 3))		-			7
 
-mult(add(2, 2), div(9, 3))				12
+mult(add(2, 2), div(9, 3))	-			12
 
-let(a, 5, add(a, a))					10
+let(a, 5, add(a, a))		-			10
 
-let(a, 5, let(b, mult(a, 10), add(b, a)))		55
+let(a, 5, let(b, mult(a, 10), add(b, a)))	-	55
 
-let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b)))	40
+let(a, let(b, 10, add(b, b)), let(b, 20, add(a, b))) -	40
 
 An expression is one of the of the following:
 
